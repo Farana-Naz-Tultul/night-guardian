@@ -2,35 +2,39 @@
 
 Night Guardian is a cozy-spooky browser game prototype built with React.
 
+## Current Prototype
+
+![Night Guardian Screenshot](./screenshots/night-guardian-room.png)
+
 The player protects a sleeping person through the night by managing small threats inside the room:
 
 * a window that may open on its own
 * a candle that may go out
 * a ghostly presence that may appear
 
-If danger gets too high, the game is lost. If the player survives until morning, the game is won.
+If danger gets too high, the game is lost. If the player survives until the survival time limit, the game is won.
 
 ---
 
 ## Current Version
 
-This repository currently contains the **first playable prototype**.
+This repository currently contains a playable room-based prototype.
 
-The focus of this version is:
+The current version includes:
 
-* core gameplay loop
-* React state management
-* `useEffect` timers and random events
-* win / lose conditions
-* restart logic
-* early visual feedback and animation
+* a structured room layout built with React components
+* interactive room events and state-based gameplay
+* animated ghost, candle, and environmental effects
+* conditional UI and tension-based visual feedback
+* iterative UI and gameplay experimentation
 
-The current UI is intentionally simple because the project is being built step by step, with gameplay and structure prioritized before visual polish.
+The project is being developed incrementally, with gameplay systems and atmosphere evolving over time.
 
 ---
 
 ## Features Implemented
 
+* Room-based game layout
 * Random window event
 * Random candle event
 * Random ghost event
@@ -40,7 +44,14 @@ The current UI is intentionally simple because the project is being built step b
 * Restart system
 * Animated candle flicker
 * Animated ghost bobbing
+* Animated window opening
 * Tension-based visual changes
+* Interactive control panel
+* Basic visual storytelling and scene composition
+* Cozy-spooky room scene composition
+* Stylized sleeping character and bed setup
+* Candle and table environment setup
+* Interactive control panel
 
 ---
 
@@ -66,25 +77,26 @@ I wanted to build an interactive game project from scratch and use it to strengt
 
 ## Development Approach
 
-This project is being built iteratively.
+This project is being built iteratively, with each version focusing on improving both gameplay structure and atmosphere.
 
-The current direction includes:
+Current development focuses include:
 
-* starting with a playable prototype
-* gradually improving layout and visual storytelling
-* introducing more complex gameplay systems over time
-* refining the experience based on testing and iteration
+* refining room composition and visual storytelling
+* improving interaction feedback and animations
+* experimenting with gameplay balance and pacing
+* gradually introducing more complex systems over time
 
-This project is intentionally being developed step by step to reflect my learning and problem-solving process.
-
-The roadmap may evolve as the project develops.
+The project intentionally reflects an incremental learning and problem-solving process, with features evolving through experimentation and iteration.
 
 ---
 
 ## Current Status
 
-Playable prototype complete.
-Room layout refactor and visual improvements are in progress.
+Playable room-based prototype complete.
+
+Core gameplay systems, scene layout, and interactive elements are functional.
+
+Additional gameplay systems, UI polish, balancing, and atmospheric improvements are planned for future versions.
 
 ---
 
@@ -97,14 +109,15 @@ npm run dev
 
 ---
 
-## Planned Improvements
+# Planned Improvements
 
-* room-based layout instead of stacked column layout
-* improved window animation
-* more complex gameplay systems
-* stronger cozy/spooky atmosphere
-* asset-based visuals
-* possible future features like persistence (saving progress) and adding more gameplay mechanics
+* improved event narration system
+* additional gameplay mechanics and balancing
+* more atmospheric animations and interactions
+* improved mobile-friendly controls
+* enhanced visual polish and transitions
+* asset-based visuals and environmental details
+* expanded gameplay systems and progression
 
 ---
 
