@@ -1,0 +1,30 @@
+.room {
+  position: relative;
+  flex: none;
+  min-width: 0;
+  width: 100%;
+  aspect-ratio: 1672 / 941;
+  background: #2a2233;
+  border-radius: 16px 16px 0 0;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.room-background {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+}
+
+.room-scene {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 520px;
+  height: 420px;
+  transform-origin: top center;
+}

@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local interview-learning notes are intentionally private.
+private-notes/
+INTERVIEW_NOTES.md
+
+# Local environment secrets. A sanitized example may still be committed.
+.env
+.env.*
+!.env.example
