@@ -2,7 +2,7 @@
 
 Night Guardian is a cozy-horror browser game about protecting a sleeping person until morning without frightening them awake. During a 180-second night, the player manages an opening window, a candle that can be extinguished, and the shadowy ghost that follows prolonged darkness. The central choice is whether to respond quietly and risk losing time, or act immediately and raise the sleeper's Wakefulness.
 
-![Night Guardian in progress, with the room scene and gameplay HUD](./screenshots/night-guardian-relight-active.png)
+![Night Guardian active gameplay with the illustrated room and control HUD](./screenshots/night-guardian-gameplay.jpg)
 
 ## What's new in the current milestone
 
@@ -103,13 +103,24 @@ The current reducer suite contains 50 tests covering meter rates and thresholds,
 
 The tests focus on reducer behavior. They do not currently mount React components or replace cross-browser, accessibility, touch-device, or human difficulty testing.
 
-## Screenshots
+## Current game screenshots
 
-- [Active Relight and joined room/HUD](./screenshots/night-guardian-relight-active.png)
-- [Relight interrupted by a ghost](./screenshots/night-guardian-relight-interruption.png)
-- [Mobile layout](./screenshots/night-guardian-relight-mobile.png)
-- [Victory screen](./screenshots/night-guardian-relight-win.png)
-- [Danger-loss screen](./screenshots/night-guardian-relight-loss.png)
+These screenshots were captured from the current running game and show the complete presentation flow.
+
+| Main menu | Tutorial / How to Play |
+| --- | --- |
+| ![Night Guardian main menu](./screenshots/night-guardian-main-menu.jpg) | ![Night Guardian tutorial explaining Danger, Wakefulness, and candle rules](./screenshots/night-guardian-tutorial.jpg) |
+| Start a night or open the tutorial. | Review the core rules before guarding the sleeper. |
+
+| Active gameplay | Pause screen |
+| --- | --- |
+| ![Night Guardian active gameplay](./screenshots/night-guardian-gameplay.jpg) | ![Night Guardian pause screen](./screenshots/night-guardian-pause.jpg) |
+| Track both meters and respond to room threats from the joined HUD. | Resume the frozen night, restart, or return to the main menu. |
+
+| Victory | Defeat / Game Over |
+| --- | --- |
+| ![Night Guardian victory screen after surviving 180 seconds](./screenshots/night-guardian-victory.jpg) | ![Night Guardian game-over screen after Danger reaches 100](./screenshots/night-guardian-game-over.jpg) |
+| Morning arrives after a full 180-second survival run. | The run ends when Danger reaches 100 before morning. |
 
 A hosted public demo is not currently configured.
 
